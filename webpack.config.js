@@ -7,12 +7,12 @@ module.exports = {
   entry: './lib/main.jsx',
   devServer: {
     hot:true,
-    inline true,
-    port: 8000,
+    inline: true,
+    port: 3000,
     historyApiFallback: true
   },
   resolve: {
-    extensions: ['', '.js', '.jsx']
+    extensions: ['.js', '.jsx']
   },
   output: {
     path: path.resolve(buildDirectory),
