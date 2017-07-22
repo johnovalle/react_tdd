@@ -12,7 +12,7 @@ describe('<Email>', function() {
 
   it('should have a button', function(){
     const wrapper = shallow(<Email/>);
-    expect(wrapper.find('button').to.have.length(1);
+    expect(wrapper.find('button')).to.have.length(1);
   });
 
   it('should have props for handleEmailChange and fetchGravatar', function(){
